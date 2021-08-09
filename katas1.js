@@ -15,7 +15,7 @@ function evensToTwenty() {
 
   let contagem = [];
     
-   for (let i = 1; i <= 20; i += 2) {
+   for (let i = 2; i <= 20; i += 2) {
      contagem.push(i);
    }
   return contagem;
@@ -80,7 +80,7 @@ function evenNumbersBackwards() {
     
   let contagem = [];
 
-  for (let i = 20; i >= 0; i -= 2) {
+  for (let i = 20; i >= 1; i -= 2) {
     contagem.push(i);
   }
   return contagem;
@@ -107,7 +107,7 @@ function multiplesOfFiveBackwards() {
     
   let contagem = [];
 
- for (let i = 100; i >= 0; i -= 5) {
+ for (let i = 100; i >= 1; i -= 5) {
    contagem.push(i);
  }
  return contagem;
